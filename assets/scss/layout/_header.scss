@@ -1,0 +1,64 @@
+.header {
+    background:url("../img/background-header.jpg")center;
+  padding-top: 70px;
+  background-size: cover;
+    width: auto;
+  height: 1100px;  }
+    .header__inner {
+    display: flex;
+    justify-content: space-between; }
+  .header-nav__wrapper {
+    height: 65px; }
+  .header-nav__link {
+    height: 65px;
+    line-height: 65px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none; }
+    .header-nav__link--login{
+    border: 1px solid $blue;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: blue;}
+    .header-nav__link--login:hover{
+    color: #fff;
+    text-shadow: none;
+    background-color: $blue;}
+    .header-nav__link:hover {
+    text-shadow: 0 0 10px #ffffff;}
+  .header-content {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    color: lightgrey; }
+    .header-content__title{
+      font-size: 3.8rem;}
+    .header-content__subtitle{
+      font-size: 2.0rem;
+      color: $lightblue;
+      font-weight: bold;
+      padding: 40px 0 60px 0;}
+      .header-content__link-wrapper {
+      margin-top: 50px;
+      text-align: center; }
+    .header-content__link {
+     text-decoration: none;
+     color:#fff; }
+    a .header-content__link{
+    font-weight: bold; }
+    .header__image--mini-merkury{
+      position: absolute;
+      top: 340px;
+      left:100px;
+      margin: auto; }
+    .button{
+      width: 215px;
+      height: 56px;
+      border-radius: 28px;
+      border: 0;
+      background-color: #00008B;
+      color: #fff;
+      font-size: 20px; }
+      .button:hover{
+      background-color: $blue; }

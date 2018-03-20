@@ -1,0 +1,19 @@
+.footer{
+  padding: 50px 0;
+  background-color: #0e1a35;
+  color:#fff;
+}
+.footer-nav{
+display: flex;
+justify-content: space-between; }
+.footer-nav__link{
+  color: $lightblue;
+  padding-right: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-nav__link-facebook,
+.footer-nav__link-twitter,
+.footer-nav__link-google{
+padding-right: 10px;
+}

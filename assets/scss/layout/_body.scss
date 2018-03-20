@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import '../fonts/OpenSans-Light/styles.css';
+
+html,
+body{
+  font-family: 'OpenSans-Light', 'Helvetica', 'Arial', sans-serif;
+  font-size: 16px;  }
+.container {
+  width: 1200px;
+  margin: auto; }
